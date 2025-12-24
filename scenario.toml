@@ -22,3 +22,4 @@ max_steps = 15
 obs_type = "screenshot_a11y_tree"
 # Agent registered on AgentBeats: 2025-12-24
 # GCP credentials handling fixed
+# Streaming disabled
