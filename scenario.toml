@@ -10,7 +10,7 @@ LOG_LEVEL = "INFO"
 
 # White agent (the LLM-based decision maker being assessed)
 [[participants]]
-agentbeats_id = ""
+agentbeats_id = "jpablomm/cs294-white-agent"
 name = "white_agent"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 
