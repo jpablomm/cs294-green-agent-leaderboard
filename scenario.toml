@@ -21,11 +21,3 @@ osworld_task_id = "ec4e3f68-9ea4-4c18-a5c9-69f89d1178b3"
 max_steps = 15
 obs_type = "screenshot_a11y_tree"
 
-# Leaderboard queries
-[[leaderboard]]
-name = "Overall Performance"
-query = "SELECT participant, score, steps, time_sec FROM results ORDER BY score DESC, steps ASC"
-
-[[leaderboard]]
-name = "Success Rate"
-query = "SELECT participant, COUNT(*) as runs, SUM(CASE WHEN success THEN 1 ELSE 0 END) as successes FROM results GROUP BY participant"
