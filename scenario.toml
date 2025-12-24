@@ -1,6 +1,6 @@
 # CS294 Green Agent - OSWorld Assessment Leaderboard
 # This leaderboard evaluates white agents on OSWorld desktop automation tasks
-# Retry with /decide endpoint fix
+# Retry with /decide endpoint fix v2
 
 [green_agent]
 agentbeats_id = "jpablomm/cs294-green-agent"
