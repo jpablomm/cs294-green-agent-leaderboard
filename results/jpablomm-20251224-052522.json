@@ -1,0 +1,16 @@
+{
+  "participants": {
+    "white_agent": "jpablomm/cs294-white-agent"
+  },
+  "results": [
+    {
+      "participant": "white_agent",
+      "task_id": "ec4e3f68-9ea4-4c18-a5c9-69f89d1178b3",
+      "success": false,
+      "score": 0.0,
+      "steps": 15,
+      "time_sec": 360,
+      "error": null
+    }
+  ]
+}
