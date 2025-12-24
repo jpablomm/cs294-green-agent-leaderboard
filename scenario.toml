@@ -21,3 +21,4 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
 osworld_task_id = "ec4e3f68-9ea4-4c18-a5c9-69f89d1178b3"
 max_steps = 15
 obs_type = "screenshot_a11y_tree"
+# Test trigger
