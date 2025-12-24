@@ -1,0 +1,22 @@
+# CS294 Green Agent - OSWorld Assessment Leaderboard
+# This leaderboard evaluates white agents on OSWorld desktop automation tasks
+# Retry with white_agent_url fix
+
+[green_agent]
+agentbeats_id = "jpablomm/cs294-green-agent"
+
+[green_agent.env]
+GOOGLE_CLOUD_PROJECT = "${GOOGLE_CLOUD_PROJECT}"
+GOOGLE_APPLICATION_CREDENTIALS_JSON = "${GOOGLE_APPLICATION_CREDENTIALS_JSON}"
+LOG_LEVEL = "INFO"
+
+# White agent (the LLM-based decision maker being assessed)
+[[participants]]
+agentbeats_id = "jpablomm/cs294-white-agent"
+name = "white_agent"
+env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
+
+[config]
+osworld_task_id = "ec4e3f68-9ea4-4c18-a5c9-69f89d1178b3"
+max_steps = 15
+obs_type = "screenshot_a11y_tree"
